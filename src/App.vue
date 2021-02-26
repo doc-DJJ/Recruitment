@@ -23,7 +23,7 @@
         enableHtml: false,
         fullStyle: [
           `/*
-* Inspired by http://strml.net/
+
 
 * 这是我的一份简历！
 */
@@ -32,11 +32,11 @@
 * {
   transition: all .3s;
 }
-/* 白色背景太单调了，我们来点背景 */
+/* 白色背景太单调了，加背景 */
 html {
   color: rgb(222,222,222); background: rgb(0,43,54);
 }
-/* 文字离边框太近了 */
+/* 文字离边框太近 */
 .styleEditor {
   padding: .5em;
   border: 1px solid;
@@ -62,7 +62,7 @@ html{
           transform: rotateY(10deg) translateZ(-100px) ;
 }
 
-/* 接下来我给自己准备一个编辑器 */
+/* 准备一个编辑器 */
 .resumeEditor{
   position: fixed; right: 0; top: 0;
   padding: .5em;  margin: .5em;
@@ -71,19 +71,19 @@ html{
   background: white; color: #222;
   overflow: auto;
 }
-/* 好了，我开始写简历了 */
+/* 开始写简历 */
 
 
 `,
           `
-/* 这个简历好像差点什么
- * 对了，这是 Markdown 格式的，我需要变成对 HR 更友好的格式
- * 简单，用开源工具翻译成 HTML 就行了
+/* 
+ * Markdown 格式的，
+ *用开源工具翻译成 HTML 
  */
 `
           ,
           `
-/* 再对 HTML 加点样式 */
+/* 加样式 */
 .resumeEditor{
   padding: 2em;
 }
